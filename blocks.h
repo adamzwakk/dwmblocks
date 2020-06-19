@@ -8,7 +8,7 @@ static const Block blocks[] = {
 	
 	{"🧠", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
 
-	//{"", "~/bin/statusbar/volume",						0,		10},
+	{"", "~/.local/bin/statusbar/volume",						0,		10},
 
 	//{"☀", "xbacklight | sed 's/\\..*//'",					0,		11},
 	
