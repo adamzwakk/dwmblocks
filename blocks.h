@@ -7,7 +7,7 @@ static const Block blocks[] = {
 
 	{"☀", "xbacklight | sed 's/\\..*//'",					0,		11},
 	
-	{"🔋", "cat /sys/class/power_supply/BAT*/capacity | awk '{ total += $1; count++ } END { print total/count }'",						5,		0},
+	{"🔋", "cat /sys/class/power_supply/BAT*/capacity | awk '{ total += $1; count++ } END { print total/count }'",	15, 0},
 
 	//{"🌡", "sensors | awk '/^temp1:/{print $2}'",				5,		0},
 
