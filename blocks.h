@@ -13,6 +13,8 @@ static const Block blocks[] = {
 
 	//{"🌡", "sensors | awk '/^temp1:/{print $2}'",				5,		0},
 
+    {"", "forecast",    18000,  5},
+
 	{"🕛","date +'%H:%M'",						60,		0},
 };
 
